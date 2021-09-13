@@ -68,12 +68,15 @@ linux内核：Linux如何实现+1，-1等的原子操作  寄存器相关
 限定语言：Sqlite、Mysql  
 牛客每天有很多用户刷题，发帖，点赞，点踩等等，这些都会记录相应的积分。  
 有一个用户表(user)，简况如下：  
-![user](../../resources/images/user_table.png)  
+![user](../../resources/images/user_table.png "user")  
 还有一个积分表(grade_info)，简况如下:  
 ![grade_info](../../resources/images/grade_info_table.png)  
 第1行表示，user_id为1的用户积分增加了3分。  
 第2行表示，user_id为2的用户积分增加了3分。  
-第3行表示，user_id为1的用户积分又增加了1分。  
+第3行表示，user_id为1的用户积分又增加了‘、  ·1
+
+
+分。  
 .......  
 最后1行表示，user_id为5的用户积分增加了3分。  
 
