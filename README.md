@@ -1,1 +1,4 @@
 # NowCoder
+
+
+NewCoder Solution
